@@ -52,7 +52,7 @@ while True:
 
   elif ("yahoomail" in p) or ("yahoo mail" in p):
     pyttsx3.speak("opening yahoo mail")
-    os.system("chrome www.yahoomail.com")
+    os.system("chrome www.yahoomail.com ")
 
   elif ("youtube" in p):
     pyttsx3.speak("opening youtube for you plz wait")
