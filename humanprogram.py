@@ -55,4 +55,4 @@ while True:
          pyttsx3.speak("Exiting")
          break
        else:
-         pyttsx3.speak("such application dont support in your computer plz tell again")
+         pyttsx3.speak("Such application dont support in your computer plz tell again")
