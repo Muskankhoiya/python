@@ -31,7 +31,7 @@ while True:
     pyttsx3.speak("My name is jack im your assitant and i wil help you for your requirements")
   
   elif ("chrome" in p): 
-    pyttsx3.speak("opening chrome for you")
+    pyttsx3.speak("Opening chrome for you")
     os.system("chrome")
 
   elif ("aws" in p) or ("aws cloud services" in p):
