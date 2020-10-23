@@ -22,7 +22,7 @@ while True:
          os.system("Feem")
 
        elif  (("run" in p) or  ("open" in p) or ("launch" in p))  and  ("codeblocks " in p):
-         pyttsx3.speak("Opening codeblocks for you plz wait")
+         pyttsx3.speak("Opening codeblocks for you plz wait" )
          os.system("codeblocks.exe")
 
        elif  (("run" in p) or  ("open" in p) or ("launch" in p))  and  ("Powerpoint " in p) :
@@ -55,4 +55,4 @@ while True:
          pyttsx3.speak("Exiting")
          break
        else:
-         pyttsx3.speak("such application dont support in your computer plz tell again")
+         pyttsx3.speak(" such application dont support in your computer plz tell again")
